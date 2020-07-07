@@ -1,0 +1,203 @@
+@charset "utf-8";
+
+* {
+  box-sizing: border-box;
+  outline: none;
+}
+
+body {
+  background-color: #0d0d0d;
+  margin: 0px;
+  padding: 0px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  cursor: gran;
+}
+
+section {
+  width: 100%;
+  height: 95vh;
+  background-image: url("../assets/parkingLotFeedbackBG.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  background-color: #0d0d0d;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+  padding: 0px 5%;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li a {
+  margin: 30px;
+  font-family: myriad pro regular;
+  color: #dcd7d6;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.logo {
+  font-family: RoadTest;
+  color: #dcd7d6;
+  font-size: 22px;
+}
+
+.active {
+  color: #dcd7d6;
+  font-weight: bold;
+}
+
+.container {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 350px;
+  width: 100%;
+  height: 460px;
+  background: rgba(196, 196, 196, 0.726);
+  opacity: 90%;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 4px 4px 2px rgba(99, 97, 97, 0.521);
+}
+
+.container h2 {
+  text-align: center;
+  margin-bottom: 17px;
+  margin-top: 2px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #ffffff;
+}
+
+.container .field {
+  margin-bottom: 10px;
+}
+
+.container .field input[type="text"],
+input[type="password"],
+.container textarea {
+  border: 1px solid #4747479c;
+  width: 100%;
+  padding: 10px;
+}
+
+.servicetype {
+  margin-bottom: 17px;
+  margin-top: 17px;
+  margin-left: 3px;
+  font-size: 15px;
+}
+
+.satisfaction {
+  margin-bottom: 17px;
+  margin-top: 17px;
+  margin-left: 3px;
+  font-size: 15px;
+}
+
+.container textarea {
+  resize: none;
+  height: 62px;
+}
+
+.container .btnFeed input[type="submit"] {
+  border: 0px;
+  margin-top: 15px;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  background: #000000;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.footer {
+  height: 210px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.inner_footer {
+  display: block;
+  margin: 0 auto;
+  width: 1030px;
+  height: 50%;
+}
+
+.inner_footer .logo_container {
+  width: 35%;
+  float: left;
+  height: 80%;
+  display: block;
+}
+
+.inner_footer .logo_container img {
+  width: 90px;
+  height: auto;
+}
+
+.inner_footer .footer_third {
+  width: calc(21.6666666667% - 20px);
+  margin-right: 10px;
+  float: left;
+  height: 100%;
+}
+
+.inner_footer .footer_third :last-child {
+  margin-right: 0;
+}
+
+.inner_footer .footer_third h1 {
+  font-family: "arial";
+  font-size: 22px;
+  color: #ffffff;
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.inner_footer .footer_third a {
+  font-family: "arial";
+  font-size: 18px;
+  color: #ffffff;
+  display: block;
+  font-weight: 10;
+  width: 100%;
+  padding-bottom: 5px;
+}
+
+.inner_footer .footer_third span {
+  color: #ffffff;
+  font-family: "arial";
+  font-size: 15px;
+  font-weight: 200;
+  display: block;
+  width: 100%;
+}

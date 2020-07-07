@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Forum</title>
+    <link rel="icon" href="/assets/parking.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="../css/Forum.css"
+    />
+    <script src="../js/Forum.js"></script>
+  </head>
+  <body>
+    <section>
+      <nav>
+        <a href="Home.html" class="logo">G Parking</a>
+        <ul>
+          <li><a href="./Home.html" class="active">Home</a></li>
+          <li>
+            <a href="./Registration.html" class="active">Registration</a>
+          </li>
+          <li>
+            <a href="./Login.html" class="active">Login</a>
+          </li>
+          <li>
+            <a href="./Feedback.html" class="active">Feedback</a>
+          </li>
+          <li>
+            <a href="./Rating.html" class="active">Rating</a>
+          </li>
+          <li>
+            <a href="./Forum.html" class="active">Forum</a>
+          </li>
+        </ul>
+      </nav>
+    </section>
+
+    <div class="container">
+      <div class="forumtitle">
+        <h1>FORUM</h1>
+        <p>Create and Reply Threads with Other Customers</p>
+      </div>
+      <div class="container2">
+        <div>
+          <input type="text" placeholder="Name" id="name" class="name-handle" />
+        </div>
+        <div>
+          <input
+            type="text"
+            placeholder="Username"
+            id="handle"
+            class="name-handle"
+          />
+        </div>
+      </div>
+      <div>
+        <textarea
+          rows="5"
+          id="comment"
+          class="comment-box"
+          placeholder="Description...."
+        ></textarea>
+        <div>
+          <button id="add-comment" class="add-btn">Add Thread</button>
+        </div>
+      </div>
+      <h3>Thread</h3>
+      <ul id="commentsList"></ul>
+    </div>
+  </body>
+</html>
