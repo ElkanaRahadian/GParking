@@ -1,4 +1,4 @@
-var fullnam = document.getElementById("txtname");
+var fullname = document.getElementById("txtname");
 var email = document.getElementById("txtemail");
 var username = document.getElementById("txtusername");
 var password = document.getElementById("txtpassword");
