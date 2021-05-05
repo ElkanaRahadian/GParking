@@ -1,4 +1,4 @@
-var username = document.getElementById("txtusername");
+var usernam = document.getElementById("txtusername");
 var regular = document.getElementById("btnregular");
 var premium = document.getElementById("btnpremium");
 var rating = document.getElementById("numrating");
