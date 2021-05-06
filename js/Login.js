@@ -1,4 +1,4 @@
-var emai = document.getElementById("txtemail");
+var email = document.getElementById("txtemail");
 var password = document.getElementById("txtpassword");
 var buttonLogin = document.getElementById("btnLogin");
 
