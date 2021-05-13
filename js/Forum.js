@@ -1,4 +1,4 @@
-let commentAr = new Array();
+let commentArr = new Array();
 
 (() => {
   let commentsString = localStorage.getItem("commentArr");
